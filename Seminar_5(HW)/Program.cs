@@ -58,7 +58,7 @@
 // {
 //     Random x = new Random();
 //     double r = Convert.ToDouble(x.Next(0, 100) / 100.00);
-//     array[i] = new Random().Next(0, 100) * r;
+//     array[i] = new Random().Next(0, 100) * s;
 //     if(i == 0)
 //     {
 //         System.Console.Write("[");
@@ -75,17 +75,17 @@
 // }
 // double max = array[0];
 // double min = array[0];
-// for(int j = 0; j < array.Length; j++)
+// for(int a = 0; a < array.Length; a++)
 // {
-//     if(max < array[j])
+//     if(max < array[a])
 //     {
-//         max = array[j];
+//         max = array[a];
 //     }
-//     if(min > array[j])
+//     if(min > array[a])
 //     {
-//         min = array[j];
+//         min = array[a];
 //     }
 // }
 // System.Console.WriteLine("");
-// System.Console.WriteLine($"Максимальный элемент в массиве -> {Math.Round(max, 2)}, а минимальный -> {Math.Round(min, 2)}");
+// System.Console.WriteLine($"Максимальный элемент в массиве -> {Math.Round(max, 2)}, минимальный -> {Math.Round(min, 2)}");
 // System.Console.WriteLine($"Разница между максимальным и минимальным элементом в массиве -> {Math.Round(max - min, 2)}");
